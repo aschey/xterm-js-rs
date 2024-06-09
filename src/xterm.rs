@@ -1,9 +1,9 @@
+use crate::keys::*;
 use js_sys::{Function, RegExp};
 use wasm_bindgen::prelude::*;
 use web_sys::{HtmlElement, HtmlTextAreaElement, KeyboardEvent, MouseEvent};
-use crate::keys::*;
 
-#[wasm_bindgen(module = "xterm")]
+#[wasm_bindgen(module = "@xterm/xterm")]
 extern "C" {
 
     #[wasm_bindgen(js_name = "ITerminalOptions")]
@@ -952,4 +952,3 @@ extern "C" {
     pub fn get_active_version(this: &UnicodeHandling) -> String;
 
 }
-

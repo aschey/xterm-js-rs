@@ -1,8 +1,8 @@
-use crate::{LinkMatcherOptions, TerminalAddon, Terminal};
+use crate::{LinkMatcherOptions, Terminal, TerminalAddon};
 use js_sys::Function;
 use wasm_bindgen::prelude::*;
 
-#[wasm_bindgen(module = "xterm-addon-web-links")]
+#[wasm_bindgen(module = "@xterm/addon-web-links")]
 extern "C" {
 
     #[wasm_bindgen(extends = TerminalAddon)]

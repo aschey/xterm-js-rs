@@ -3,7 +3,7 @@ use wasm_bindgen::prelude::*;
 use wasm_bindgen::JsCast;
 use web_sys::WebSocket;
 
-#[wasm_bindgen(module = "xterm-addon-attach")]
+#[wasm_bindgen(module = "@xterm/addon-attach")]
 extern "C" {
 
     #[wasm_bindgen(js_name = "IAttachOptions")]

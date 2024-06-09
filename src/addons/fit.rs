@@ -1,8 +1,8 @@
-use crate::{TerminalAddon, Terminal};
+use crate::{Terminal, TerminalAddon};
 use wasm_bindgen::prelude::*;
 use wasm_bindgen::JsCast;
 
-#[wasm_bindgen(module = "xterm-addon-fit")]
+#[wasm_bindgen(module = "@xterm/addon-fit")]
 extern "C" {
 
     #[wasm_bindgen(extends = TerminalAddon)]

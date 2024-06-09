@@ -1,7 +1,7 @@
-use crate::{TerminalAddon, Terminal};
+use crate::{Terminal, TerminalAddon};
 use wasm_bindgen::prelude::*;
 
-#[wasm_bindgen(module = "xterm-addon-serialize")]
+#[wasm_bindgen(module = "@xterm/addon-serialize")]
 extern "C" {
 
     #[wasm_bindgen(extends = TerminalAddon)]

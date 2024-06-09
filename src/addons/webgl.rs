@@ -2,7 +2,7 @@ use crate::{Terminal, TerminalAddon};
 use wasm_bindgen::prelude::*;
 use web_sys::HtmlCanvasElement;
 
-#[wasm_bindgen(module = "xterm-addon-webgl")]
+#[wasm_bindgen(module = "@xterm/addon-webgl")]
 extern "C" {
 
     #[wasm_bindgen(extends = TerminalAddon)]

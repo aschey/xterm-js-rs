@@ -1,7 +1,7 @@
-use crate::{TerminalAddon, Terminal};
+use crate::{Terminal, TerminalAddon};
 use wasm_bindgen::prelude::*;
 
-#[wasm_bindgen(module = "xterm-addon-ligatures")]
+#[wasm_bindgen(module = "@xterm/addon-ligatures")]
 extern "C" {
 
     #[wasm_bindgen(extends = TerminalAddon)]
